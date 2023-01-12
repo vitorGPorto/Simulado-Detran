@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActiviy"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/pergunta"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progress="0"
+                android:max="5"
+                android:minHeight="50dp"
+                style="?android:progressBarStyleHorizontal"
+                />
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/progressBar"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/opt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+
+        android:background="@drawable/question_option"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:background="@drawable/question_option"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:background="@drawable/question_option"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:background="@drawable/question_option"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</LinearLayout>

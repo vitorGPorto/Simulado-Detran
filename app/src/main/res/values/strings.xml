@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exercícios de Legislação de Trânsito</string>
+    <string name="pergunta">DIGITE SUA PERGUNTA</string>
+    <string name="option1">Opção 1</string>
+    <string name="submit">Responder</string>
+    <string name="progressBar">1/5</string>
+    <string name="text_name">Exercícios de Legislação de Trânsito</string>
+    <string name="congratulations">Parabéns Nome</string>
+    <string name="score">Sua pontuação é</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="boaVindas">Boas Vindas</string>
+</resources>
