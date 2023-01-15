@@ -122,8 +122,7 @@ class QuestionActiviy : AppCompatActivity() {
         opt_1.text = question.option_one
         opt_2.text = question.option_two
         opt_3.text = question.option_three
-        opt_4.text = question.option_three
-
+        opt_4.text = question.option_four
     }
 
     fun setOptionStyle(){
